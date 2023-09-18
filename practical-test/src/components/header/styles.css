@@ -1,0 +1,89 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 22px 45px 22px 33px;
+  border: 1px solid #000;
+}
+.logo {
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 0.4px;
+  padding-right: 65px;
+  position: relative;
+}
+.logo::before,
+.spotlight-experience::before {
+  content: "";
+  position: absolute;
+  top: -22px;
+  bottom: 0;
+  right: 0;
+  width: 1px;
+  height: 85px;
+  background-color: grey;
+}
+.square {
+  width: 9px;
+  height: 9px;
+  display: inline-block;
+  background-color: blue;
+  margin-inline: 2px;
+  margin-bottom: 1px;
+  transform: rotate(60deg);
+}
+.spotlight-experience {
+  padding-left: 38px;
+  padding-right: 25px;
+  position: relative;
+}
+.spotlight-experience p {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 0.4px;
+  font-weight: 300;
+  line-height: 40px;
+}
+.spotlight-experience::before, .menu::before {
+  width: 2px;
+}
+.profile-menu {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  padding-left: 45px;
+  position: relative;
+  line-height: 40px;
+}
+.menu i {
+  font-size: 24px;
+}
+.profile-btn {
+  display: inline-block;
+  padding: 12px 12px 12px 30px;
+  font-size: 13px;
+  letter-spacing: 0.26px;
+  border-radius: 0;
+  line-height: 13px;
+  border: 1px solid black;
+  position: relative;
+  background-color: #fff;
+  font-weight: 300;
+  margin-right: 38px;
+}
+.profile-btn i {
+  position: absolute;
+  left: 10px;
+  font-size: 13px;
+}
+.menu::before {
+  content: "";
+  position: absolute;
+  top: -22px;
+  bottom: 0;
+  left: 0;
+  height: 85px;
+  background-color: grey;
+}

@@ -1,0 +1,10 @@
+.working-with-us {
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+}
+.working-with-us p {
+  font-size: 27px;
+  line-height: 35px;
+  width: 90%;
+  margin: 0 auto;
+}
